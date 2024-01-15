@@ -1,0 +1,6 @@
+-> npx pm2 start index (for running the index file using pm2)
+-> npx pm2 monit (for monitoring memory usage)
+-> npx pm2 stop index (to end the express server)
+-> npx pm2 status (similar to monit)
+
+-> bash stress-test.sh for running the stress testing on server

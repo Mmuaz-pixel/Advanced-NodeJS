@@ -1,0 +1,1 @@
+This is a demo file used to show the usage of streams in node js enviornemnt while using readable, writeable and transform streams
