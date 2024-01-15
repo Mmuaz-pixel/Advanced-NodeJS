@@ -1,0 +1,4 @@
+Password encryption 
+JWT blacklisting - using a refresh jwt and blacklisting a jwt if somekind of malicious activity is performed 
+JSON schema validation in apis 
+Linters - secuirty developer tool to find vulnerabilities in the code  
