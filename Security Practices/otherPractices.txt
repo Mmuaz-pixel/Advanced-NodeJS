@@ -2,3 +2,10 @@ Password encryption
 JWT blacklisting - using a refresh jwt and blacklisting a jwt if somekind of malicious activity is performed 
 JSON schema validation in apis 
 Linters - secuirty developer tool to find vulnerabilities in the code  
+
+Limit payload size - Limit the size of post request to prevent Denial of Service (DOS)
+Authentication Limit - lock out user if some number of wrong credential request to prevent DOS 
+
+helmet - package to handle alot of secuirty issues just do app.use(helemt()); 
+vulnerabilities inspections - npm audit or other tools (usually used in much large projects)
+
