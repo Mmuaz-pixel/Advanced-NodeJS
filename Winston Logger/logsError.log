@@ -1,0 +1,140 @@
+{
+  level: 'error',
+  message: 'HTTP GET /500',
+  metadata: {
+    meta: {
+      req: {
+        url: '/500',
+        headers: {
+          token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZW50ZXIiOnsiaWQiOiI2NThmMTA0ZGY5ZTRhYzBmZjlmNzI2N2MifSwiaWF0IjoxNzAzOTMwNjQzLCJleHAiOjE3MDM5MzQyNDN9.yniLOzgMOVvFkCh4uIVYuoaO8hA_knuTJjsCf7skmIk',
+          'content-length': '71',
+          'accept-encoding': 'gzip, deflate, br',
+          accept: '*/*',
+          'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+          'content-type': 'application/json',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/500',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 4
+    },
+    timestamp: '2024-01-19T19:47:47.602Z'
+  }
+}
+{
+  level: 'error',
+  message: 'HTTP GET /error',
+  metadata: {
+    meta: {
+      req: {
+        url: '/error',
+        headers: {
+          token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZW50ZXIiOnsiaWQiOiI2NThmMTA0ZGY5ZTRhYzBmZjlmNzI2N2MifSwiaWF0IjoxNzAzOTMwNjQzLCJleHAiOjE3MDM5MzQyNDN9.yniLOzgMOVvFkCh4uIVYuoaO8hA_knuTJjsCf7skmIk',
+          'content-length': '71',
+          'accept-encoding': 'gzip, deflate, br',
+          accept: '*/*',
+          'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+          'content-type': 'application/json',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/error',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 14
+    },
+    timestamp: '2024-01-19T20:02:25.004Z'
+  }
+}
+{
+  level: 'error',
+  message: 'HTTP GET /error',
+  metadata: {
+    meta: {
+      req: {
+        url: '/error',
+        headers: {
+          token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZW50ZXIiOnsiaWQiOiI2NThmMTA0ZGY5ZTRhYzBmZjlmNzI2N2MifSwiaWF0IjoxNzAzOTMwNjQzLCJleHAiOjE3MDM5MzQyNDN9.yniLOzgMOVvFkCh4uIVYuoaO8hA_knuTJjsCf7skmIk',
+          'content-length': '71',
+          'accept-encoding': 'gzip, deflate, br',
+          accept: '*/*',
+          'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+          'content-type': 'application/json',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/error',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 16
+    },
+    timestamp: '2024-01-19T20:06:45.394Z'
+  }
+}
+{
+  level: 'error',
+  message: 'HTTP GET /error',
+  metadata: {
+    meta: {
+      req: {
+        url: '/error',
+        headers: {
+          token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZW50ZXIiOnsiaWQiOiI2NThmMTA0ZGY5ZTRhYzBmZjlmNzI2N2MifSwiaWF0IjoxNzAzOTMwNjQzLCJleHAiOjE3MDM5MzQyNDN9.yniLOzgMOVvFkCh4uIVYuoaO8hA_knuTJjsCf7skmIk',
+          'content-length': '71',
+          'accept-encoding': 'gzip, deflate, br',
+          accept: '*/*',
+          'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+          'content-type': 'application/json',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/error',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 3
+    },
+    timestamp: '2024-01-19T20:07:04.371Z'
+  }
+}
+{
+  level: 'error',
+  message: 'HTTP GET /error',
+  metadata: {
+    meta: {
+      req: {
+        url: '/error',
+        headers: {
+          token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZW50ZXIiOnsiaWQiOiI2NThmMTA0ZGY5ZTRhYzBmZjlmNzI2N2MifSwiaWF0IjoxNzAzOTMwNjQzLCJleHAiOjE3MDM5MzQyNDN9.yniLOzgMOVvFkCh4uIVYuoaO8hA_knuTJjsCf7skmIk',
+          'content-length': '71',
+          'accept-encoding': 'gzip, deflate, br',
+          accept: '*/*',
+          'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+          'content-type': 'application/json',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/error',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 23
+    },
+    timestamp: '2024-01-19T20:08:06.948Z'
+  }
+}
