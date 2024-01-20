@@ -1,0 +1,2 @@
+another way to register logs can be by using event emitter
+learn more about event emitter at https://www.w3schools.com/nodejs/nodejs_events.asp
