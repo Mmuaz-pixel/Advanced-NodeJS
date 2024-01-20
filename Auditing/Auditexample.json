@@ -1,0 +1,22 @@
+{
+	"actor": {
+		"id": "123...", 
+		"type": "user"
+	}, 
+	"action": "login", 
+	"context": {
+		"location": "192.168.0.1", 
+		"user_agent": "chrome/4.0.."
+	}, 
+	"targets": [
+		{
+			"id": "00ua....", 
+			"type": "user"
+		}, 
+		{
+			"id": "directory_01", 
+			"type": "dev team"
+		}
+	], 
+	"occured at": "2024-01-21..."
+}
