@@ -16,8 +16,8 @@ class Student {
 
 	finalMarks(total) {
 		let incremented = this.increment(total);
-		let decremented = this.decrement(total); 
-		this.decrement(total-1); 
+		let decremented = this.decrement(total);
+		this.decrement(total - 1);
 		return incremented + decremented;
 	}
 
@@ -27,6 +27,14 @@ class Student {
 
 	decrement(total) {
 		return total - 1;
+	}
+
+	fetchData() {
+		return new Promise((resolve, reject) => {
+			setTimeout(() => {
+				resolve(10);
+			}, 3000);
+		})
 	}
 }
 
