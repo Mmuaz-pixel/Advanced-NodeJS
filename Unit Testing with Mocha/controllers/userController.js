@@ -1,6 +1,13 @@
 const userList = (req, res) => {
-	res.send('hello world'); 
-
+	const obj = {
+		status: 200, 
+		data: [
+			{
+				id: 1, 
+			}
+		]
+	}
+	res.json(obj); 
 }
 
 module.exports = {userList}; 
