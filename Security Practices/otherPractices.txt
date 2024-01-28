@@ -9,3 +9,4 @@ Authentication Limit - lock out user if some number of wrong credential request 
 helmet - package to handle alot of secuirty issues just do app.use(helemt()); 
 vulnerabilities inspections - npm audit or other tools (usually used in much large projects)
 
+sanitizers - use sanitizers like express-mongo-sanitize and xss to prevent malicious injections 
