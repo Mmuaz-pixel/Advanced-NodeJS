@@ -46,7 +46,7 @@ app.post('/login', (req, res, next)=>{
 // middleware for subsequent requests to check the session
 
 app.use((req, res, next)=>{
-	if(!req.session || !req.session.id)
+	if(!req.session || !req.session.myid)
 	{
 		return res.status(401).json('you are not logged in'); 
 	}
