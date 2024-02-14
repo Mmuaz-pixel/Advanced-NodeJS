@@ -20,7 +20,13 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/api', (req, res)=>{
-	res.json({msg: '/api'}); 
+	try{
+		res.json({msg: '/api changed'}); 
+	}
+	catch(error)
+	{
+		res.status(500); 
+	}
 })
 
 app.listen(8080, ()=>{
