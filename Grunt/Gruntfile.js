@@ -41,10 +41,28 @@ module.exports = function(grunt) {
 					}
 				]
 			}
+		}, 
+
+		cssmin: {
+			target1: {
+				files: [
+					{
+						src: 'src/style.css', 
+						dest: 'build/style.min.css'
+					}
+				]
+			}
+		}, 
+
+		watch: { // run the giving tasks on these files automatically when a change occurs
+			files: ['src/*.js', 'src/*.css'], 
+			tasks: ['cssmin', 'uglify']
 		}
 	}); 
 
 	grunt.loadNpmTasks('grunt-contrib-uglify'); 
+	grunt.loadNpmTasks('grunt-contrib-cssmin'); 
+	grunt.loadNpmTasks('grunt-contrib-watch'); 
 
 	grunt.registerTask('compressJs', 'uglify'); // alias defined :  grunt uglify -> grunt compressJs (command)
 }

@@ -2,5 +2,6 @@
 
 
 function print(){
-	console.log('hello world'); 
+	console.log('hello world');
+	const b = 'watch grunt';   
 }
